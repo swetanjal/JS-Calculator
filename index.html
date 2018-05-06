@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Working Calculator</title>
+		<link rel="stylesheet" href="style.css">	
+	</head>
+
+	<body>
+		<table id="keypad" cellpadding="8px">
+			<tr>
+				<td><button id="clear" onclick="c()" class="redbutton"><b>C</b></button></td>
+				<td colspan="3"><p id="screen">0</p></td>
+			</tr>
+			<tr>
+				<td><button onclick="display(7)" class="numbers">7</button></td>
+				<td><button onclick="display(8)" class="numbers">8</button></td>
+				<td><button onclick="display(9)" class="numbers">9</button></td>
+				<td><button onclick="operator(0)" class="pink">+</button></td>
+			</tr>
+			<tr>
+                                <td><button onclick="display(4)" class="numbers">4</button></td>
+                                <td><button onclick="display(5)" class="numbers">5</button></td>
+                                <td><button onclick="display(6)" class="numbers">6</button></td>
+                                <td><button onclick="operator(1)" class="pink">-</button></td>
+                        </tr>
+			<tr>
+                                <td><button onclick="display(1)" class="numbers">1</button></td>
+                                <td><button onclick="display(2)" class="numbers">2</button></td>
+                                <td><button onclick="display(3)" class="numbers">3</button></td>
+                                <td><button onclick="operator(3)" class="pink">/</button></td>
+                        </tr>
+			<tr>
+                                <td><button onclick="display(0)" class="numbers">0</button></td>
+                                <td><button onclick="floatt()" class="numbers">.</button></td>
+                                <td><button onclick="equals()" class="greenbutton">=</button></td>
+                                <td><button onclick="operator(2)" class="pink">*</button></td>
+                        </tr>
+
+		</table>
+		<script src="javascript.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,35 @@
+#screen{
+	color: black;
+	background-color: deepskyblue;
+	height: 30px;
+}
+#keypad{	
+	background-color: skyblue;
+}
+.pink{
+	background-color: pink;
+       	height: 30px;
+        width: 50px;
+        color: black;
+        font-size: larger;
+}
+.greenbutton{
+	background-color: lightgreen;
+        height: 30px;
+        width: 50px;
+        color: black;
+        font-size: larger;
+}
+.redbutton{
+	background-color: red;
+        height: 30px;
+        width: 50px;
+	color: white;
+	font-size: larger;
+}
+.numbers{
+	background-color: white;
+    	height: 30px;
+    	width: 50px;
+}
+
